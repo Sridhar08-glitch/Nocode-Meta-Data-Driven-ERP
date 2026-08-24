@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class CollegeConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.college"
+    label = "college"
+    verbose_name = "College Management"

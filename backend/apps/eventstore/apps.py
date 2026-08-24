@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class EventstoreConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.eventstore"
+    label = "eventstore"
+    verbose_name = "Eventstore"

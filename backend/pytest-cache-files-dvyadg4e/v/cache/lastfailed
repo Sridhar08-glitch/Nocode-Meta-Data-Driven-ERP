@@ -1,0 +1,11 @@
+{
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_async_tasks_dispatched": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_concurrency_check_fails_on_stale_version": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_concurrency_check_passes_on_correct_version": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_dispatch_handler_returns_empty_list": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_dispatch_multiple_events": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_dispatch_persists_events": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_dispatch_stamps_causation_id": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_failing_subscriber_does_not_rollback": true,
+  "apps/eventstore/tests/test_bus.py::TestCommandBus::test_subscriber_called_after_dispatch": true
+}
